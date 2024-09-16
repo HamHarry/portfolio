@@ -1,5 +1,5 @@
 import "./HomePage.css";
-
+import { Link } from "react-scroll";
 const HomePage = () => {
   return (
     <div className="container-homepage">
@@ -10,7 +10,9 @@ const HomePage = () => {
           and I am a <span className="text-color">Frontend Developer.</span>
         </h1>
         <div className="line"></div>
-        <button className="btn-about">About Me</button>
+        <Link to="About" smooth={true} duration={200} className="btn-about">
+          About Me
+        </Link>
       </div>
     </div>
   );
