@@ -3,13 +3,12 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div className="container-navbar">
-      <h1>Portfolio</h1>
+      <div className="portfolio">
+        <Link to="Home" smooth={true} duration={200}>
+          Portfolio
+        </Link>
+      </div>
       <ul>
-        <li>
-          <Link to="Home" smooth={true} duration={200}>
-            Home
-          </Link>
-        </li>
         <li>
           <Link to="About" smooth={true} duration={200}>
             About
@@ -18,6 +17,7 @@ const Navbar = () => {
         <li>Skills</li>
         <li>Education</li>
         <li>Experience</li>
+        <li>Contact</li>
       </ul>
     </div>
   );

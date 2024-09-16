@@ -7,10 +7,12 @@
   height: 60px;
   z-index: 100;
 }
-.container-navbar > h1 {
+.portfolio {
   color: #e8c857;
-  margin-left: 20px;
   font-family: "Archivo Black", sans-serif;
+  font-size: 36px;
+  cursor: pointer;
+  margin-left: 20px;
 }
 .container-navbar > ul {
   display: flex;
