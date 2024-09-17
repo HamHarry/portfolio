@@ -25,3 +25,11 @@
   color: white;
   font-family: "Archivo Black", sans-serif;
 }
+.isSelect {
+  color: #e8c857;
+  transition: all 0.5s;
+}
+.select {
+  color: white;
+  transition: all 0.5s;
+}
