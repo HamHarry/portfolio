@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="container-about">
       <div className="wrap-container-about">
-        <img src="/src/assets/image/profile.jpg" alt="" />
+        <img src="/assets/profile.jpg" alt="" />
         <div className="text-about">
           <h1>About Me</h1>
           <div className="line"></div>

@@ -1,5 +1,6 @@
 import About from "./About/About";
 import Education from "./Education/Education";
+import Experience from "./Experience/Experience";
 import HomePage from "./HomePage/HomePage";
 import Navbar from "./Navbar/Navbar";
 import Skills from "./Skills/Skills";
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div id="Education">
         <Education />
+      </div>
+      <div id="Experience">
+        <Experience />
       </div>
     </div>
   );
