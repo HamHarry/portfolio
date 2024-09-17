@@ -43,7 +43,18 @@ const Navbar = () => {
             </div>
           </Link>
         </li>
-        <li>Education</li>
+        <li>
+          <Link to="Education" smooth={true} duration={200}>
+            <div
+              className={selected === "education" ? "isSelect" : "select"}
+              onClick={() => {
+                setSelected("education");
+              }}
+            >
+              Education
+            </div>
+          </Link>
+        </li>
         <li>Experience</li>
         <li>Contact</li>
       </ul>

@@ -1,4 +1,5 @@
 import About from "./About/About";
+import Education from "./Education/Education";
 import HomePage from "./HomePage/HomePage";
 import Navbar from "./Navbar/Navbar";
 import Skills from "./Skills/Skills";
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div id="Skills">
         <Skills />
+      </div>
+      <div id="Education">
+        <Education />
       </div>
     </div>
   );
