@@ -9,6 +9,7 @@ export const mockUpProject = [
       "/assets/image/Projects/FoodShop/foodshop4.png",
     ],
     comment: "",
+    link: "https://foodshop-three.vercel.app/",
   },
   {
     name: "Game Shop ",
@@ -24,5 +25,6 @@ export const mockUpProject = [
       "/assets/image/Projects/GameShop/gameshop7.png",
     ],
     comment: "",
+    link: "https://gameshop-iota.vercel.app/login",
   },
 ];
