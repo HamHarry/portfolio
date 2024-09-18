@@ -50,7 +50,7 @@
 }
 .wrap-container-skills > .line {
   position: absolute;
-  top: 9%;
+  top: 10%;
   border: 5px solid #e8c857;
   width: 50px;
   animation: spin3 2s linear infinite;
