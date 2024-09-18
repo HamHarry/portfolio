@@ -8,7 +8,9 @@ export const mockUpProject = [
       "/assets/image/Projects/FoodShop/foodshop3.png",
       "/assets/image/Projects/FoodShop/foodshop4.png",
     ],
-    comment: "",
+    features: "",
+    language: "HTML, CSS, JavaScript",
+    tools: "VSCode, Git",
     link: "https://foodshop-three.vercel.app/",
   },
   {
@@ -24,7 +26,9 @@ export const mockUpProject = [
       "/assets/image/Projects/GameShop/gameshop6.png",
       "/assets/image/Projects/GameShop/gameshop7.png",
     ],
-    comment: "",
+    features: "",
+    language: "HTML, CSS, TypeScript",
+    tools: "VSCode, Git , Postman",
     link: "https://gameshop-iota.vercel.app/login",
   },
 ];

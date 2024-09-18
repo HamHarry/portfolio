@@ -81,3 +81,23 @@
   box-shadow: 0 0 0.5em 0.25em #e8c857, 0 0 1em 0.1em #e8c857,
     inset 0 0 0.75em 0.25em #e8c857;
 }
+.content {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  max-width: 700px;
+  justify-content: space-between;
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+}
+.content-text p {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.text-yellow {
+  color: #e8c857;
+}

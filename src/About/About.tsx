@@ -33,7 +33,12 @@ const About = () => {
             ></i>
           </div>
           <div className="btn">
-            <Link to="#" className="btn-contact">
+            <Link
+              to="Contact"
+              smooth={true}
+              duration={200}
+              className="btn-contact"
+            >
               Contact Me
             </Link>
             <button>Download CV</button>

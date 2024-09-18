@@ -37,14 +37,17 @@
   width: 100%;
   max-width: 900px;
   height: 500px;
-  background: linear-gradient(135deg, #063b5d, #0f1225);
-  border: 0.25em solid var(--glow-color);
+  background: rgb(6, 59, 93);
+  background: linear-gradient(
+    180deg,
+    rgba(6, 59, 93, 1) 0%,
+    rgba(15, 18, 37, 1) 100%
+  );
+  border: 2px solid #063b5d;
   border-radius: 1em;
   outline: none;
   padding: 1em 3em;
-  box-shadow: 0 0 1em 0.25em var(--glow-color),
-    0 0 4em 1em var(--glow-spread-color),
-    inset 0 0 0.75em 0.25em var(--glow-color);
+
   transition: all 0.3s;
 }
 form {

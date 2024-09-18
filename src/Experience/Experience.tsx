@@ -8,7 +8,9 @@ export interface data {
   name: string;
   image: string;
   imageShow: string[];
-  comment: string;
+  features: string;
+  language: string;
+  tools: string;
   link: string;
 }
 
@@ -68,7 +70,20 @@ const Experience = () => {
             ></i>
           </div>
           <div className="content">
-            <p>{listData?.comment}</p>
+            <div className="content-text">
+              <p>
+                <span className="text-yellow">features: </span>
+                {listData?.features}
+              </p>
+              <p>
+                <span className="text-yellow">language: </span>
+                {listData?.language}
+              </p>
+              <p>
+                <span className="text-yellow">tools: </span>
+                {listData?.tools}
+              </p>
+            </div>
             <i
               className="fa-brands fa-github"
               onClick={() => {
