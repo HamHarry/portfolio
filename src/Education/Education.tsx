@@ -1,6 +1,20 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./Education.css";
 
+const PDF_FILE_URL_SV = "http://localhost:5173/TranscriptSongvit.pdf";
+const PDF_FILE_URL_ST = "http://localhost:5173/TranscriptSamtech.pdf";
+const PDF_FILE_URL_BU = "http://localhost:5173/Transcript.pdf";
+
 const Education = () => {
+  const downloadFileAtURL = (url: any) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
   return (
     <div className="container-education">
       <div className="wrap-container-education">
@@ -19,7 +33,13 @@ const Education = () => {
                 <p>Songvithaya Theparak School.</p>
                 <p>Cum GPA 3.20</p>
               </div>
-              <button>PDF</button>
+              <button
+                onClick={() => {
+                  downloadFileAtURL(PDF_FILE_URL_SV);
+                }}
+              >
+                PDF
+              </button>
             </div>
           </div>
           <div className="samtech">
@@ -30,7 +50,13 @@ const Education = () => {
                 <p>Business Computer Branch.</p>
                 <p>Cum GPA 3.42</p>
               </div>
-              <button>PDF</button>
+              <button
+                onClick={() => {
+                  downloadFileAtURL(PDF_FILE_URL_ST);
+                }}
+              >
+                PDF
+              </button>
             </div>
           </div>
           <div className="bu">
@@ -42,7 +68,13 @@ const Education = () => {
                 <p>Computer and Robotics Department.</p>
                 <p>Cum GPA 3.58</p>
               </div>
-              <button>PDF</button>
+              <button
+                onClick={() => {
+                  downloadFileAtURL(PDF_FILE_URL_BU);
+                }}
+              >
+                PDF
+              </button>
             </div>
           </div>
           <div className="year-songvit">

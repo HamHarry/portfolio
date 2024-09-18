@@ -47,6 +47,10 @@
   border: 5px solid #e8c857;
   width: 100px;
   animation: spin2 2s linear infinite;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 @keyframes spin2 {
   from {

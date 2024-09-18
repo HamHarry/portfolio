@@ -9,7 +9,7 @@ export const mockUpSkills = [
   },
   {
     name: "JavaScript",
-    image: "/assets/image/Skills/js.png",
+    image: "/assets/image/Skills/JavaScript-logo.png",
   },
   {
     name: "TypeScript",

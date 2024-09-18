@@ -9,8 +9,10 @@
   top: 80px;
 }
 .wrap-container-contact h1 {
-  margin-left: 20px;
-  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
   color: white;
   font-family: "Archivo Black", sans-serif;
 }
@@ -20,13 +22,17 @@
   border: 5px solid #e8c857;
   width: 100px;
   animation: spin6 1s linear infinite;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 @keyframes spin6 {
   from {
-    left: 1%;
+    left: 44%;
   }
   to {
-    left: 5%;
+    left: 50%;
   }
 }
 .container-contact-input {
