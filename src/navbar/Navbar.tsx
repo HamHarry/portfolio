@@ -67,7 +67,18 @@ const Navbar = () => {
             </div>
           </Link>
         </li>
-        <li>Contact</li>
+        <li>
+          <Link to="Contact" smooth={true} duration={200}>
+            <div
+              className={selected === "contact" ? "isSelect" : "select"}
+              onClick={() => {
+                setSelected("contact");
+              }}
+            >
+              Contact
+            </div>
+          </Link>
+        </li>
       </ul>
     </div>
   );

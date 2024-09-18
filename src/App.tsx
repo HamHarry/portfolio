@@ -1,4 +1,5 @@
 import About from "./About/About";
+import Contact from "./Contact/Contact";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
 import HomePage from "./HomePage/HomePage";
@@ -25,6 +26,9 @@ function App() {
       </div>
       <div id="Experience">
         <Experience />
+      </div>
+      <div id="Contact">
+        <Contact />
       </div>
     </div>
   );
