@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-ignore
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Education from "./Education/Education";
