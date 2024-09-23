@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./Skills.css";
+import "./Skill.css";
 import { mockUpSkills } from "../data/MockUpSkills";
 
-const Skills = () => {
+const SkillPage = () => {
   const [data] = useState(mockUpSkills);
 
   return (
@@ -25,4 +25,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillPage;

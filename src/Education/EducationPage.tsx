@@ -5,7 +5,7 @@ const PDF_FILE_URL_SV = "http://localhost:5173/TranscriptSongvit.pdf";
 const PDF_FILE_URL_ST = "http://localhost:5173/TranscriptSamtech.pdf";
 const PDF_FILE_URL_BU = "http://localhost:5173/Transcript.pdf";
 
-const Education = () => {
+const EducationPage = () => {
   const downloadFileAtURL = (url: any) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
@@ -92,4 +92,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default EducationPage;

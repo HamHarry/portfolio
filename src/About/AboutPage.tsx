@@ -1,7 +1,7 @@
 import "./About.css";
 import { Link } from "react-scroll";
 
-const About = () => {
+const AboutPage = () => {
   return (
     <div className="container-about">
       <div className="wrap-container-about">
@@ -49,4 +49,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;

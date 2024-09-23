@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [selected, setSelected] = useState("");
 

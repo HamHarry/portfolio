@@ -1,12 +1,10 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-ignore
-import About from "./about/About.tsx";
-import Contact from "./contact/Contact.tsx";
-import Education from "./education/Education.tsx";
-import Experience from "./experience/Experience.tsx";
+import AboutPage from "./about/AboutPage.tsx";
+import ContactPage from "./contact/ContactPage.tsx";
+import EducationPage from "./education/EducationPage.tsx";
+import Experience from "./experience/ExperiencePage.tsx";
 import HomePage from "./homePage/HomePage.tsx";
-import Navbar from "./navbar/Navbar.tsx";
-import Skills from "./skills/Skills.tsx";
+import Navbar from "./layout/Navbar.tsx";
+import SkillPage from "./skill/SkillPage.tsx";
 
 function App() {
   return (
@@ -18,19 +16,19 @@ function App() {
         </div>
       </div>
       <div id="About">
-        <About />
+        <AboutPage />
       </div>
       <div id="Skills">
-        <Skills />
+        <SkillPage />
       </div>
       <div id="Education">
-        <Education />
+        <EducationPage />
       </div>
       <div id="Experience">
         <Experience />
       </div>
       <div id="Contact">
-        <Contact />
+        <ContactPage />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import "./Contact.css";
 
-const Contact = () => {
+const ContactPage = () => {
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.target as HTMLFormElement;
@@ -56,4 +56,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactPage;
