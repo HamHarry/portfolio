@@ -4,8 +4,8 @@ import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
-import HomePage from "./HomePage/HomePage";
-import Navbar from "./Navbar/Navbar";
+import HomePage from "./HomePage/HomePage.tsx";
+import Navbar from "./Navbar/Navbar.tsx";
 import Skills from "./Skills/Skills";
 
 function App() {
