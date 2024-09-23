@@ -1,10 +1,10 @@
-import AboutPage from "./about/AboutPage.tsx";
-import ContactPage from "./contact/ContactPage.tsx";
-import EducationPage from "./education/EducationPage.tsx";
-import Experience from "./experience/ExperiencePage.tsx";
-import HomePage from "./homePage/HomePage.tsx";
-import Navbar from "./layout/Navbar.tsx";
-import SkillPage from "./skill/SkillPage.tsx";
+import AboutPage from "./about/AboutPage";
+import ContactPage from "./contact/ContactPage";
+import EducationPage from "./education/EducationPage";
+import Experience from "./experience/ExperiencePage";
+import HomePage from "./homePage/HomePage";
+import Navbar from "./layout/Navbar";
+import SkillPage from "./skill/SkillPage";
 
 function App() {
   return (
