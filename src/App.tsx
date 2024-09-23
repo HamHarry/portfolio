@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-ignore
-import About from "./About/About";
-import Contact from "./Contact/Contact";
-import Education from "./Education/Education";
-import Experience from "./Experience/Experience";
-import HomePage from "./HomePage/HomePage.tsx";
-import Navbar from "./Navbar/Navbar.tsx";
-import Skills from "./Skills/Skills";
+import About from "./about/About.tsx";
+import Contact from "./contact/Contact.tsx";
+import Education from "./education/Education.tsx";
+import Experience from "./experience/Experience.tsx";
+import HomePage from "./homePage/HomePage.tsx";
+import Navbar from "./navbar/Navbar.tsx";
+import Skills from "./skills/Skills.tsx";
 
 function App() {
   return (

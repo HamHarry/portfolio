@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./Experience.css";
 import "./Dialog.css";
-import { mockUpProject } from "../Data/MockUpProject";
+import { mockUpProject } from "../data/MockUpProject";
 
 export interface data {
   name: string;

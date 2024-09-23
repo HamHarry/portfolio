@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Skills.css";
-import { mockUpSkills } from "../Data/MockUpSkills";
+import { mockUpSkills } from "../data/MockUpSkills";
 
 const Skills = () => {
   const [data] = useState(mockUpSkills);
