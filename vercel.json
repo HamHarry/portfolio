@@ -1,8 +1,7 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "version": 2,
+  "builds": [{ "src": "src/App.tsx", "use": "@vercel/node" }],
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
